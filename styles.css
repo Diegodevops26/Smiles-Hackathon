@@ -1,0 +1,247 @@
+@media only screen and (min-width : 1025px) {
+    /* CABEÇALHO*/
+    header{
+        background: #FF5A00;
+        width: 100%;
+        height: 80px;
+    }
+
+    .logo-smiles{
+        text-align: left;
+        padding: 20px;
+        width: 100px;
+        margin-left: 50px;
+    }
+
+    #menu-top{
+        display: inline-flex;
+        flex-direction: row;
+        float: right;
+        margin-right: 100px;
+        color: white;
+        list-style-type: none;
+        padding: 10px;
+    }
+    .menu-top{
+        margin: 20px;
+    }
+    #menu-entrar{
+        border: 1px solid #FFFFFF;
+        box-sizing: border-box;
+        border-radius: 30px;
+        padding: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-top: 10px;
+    }
+   /*  Usando milhas primeira parte*/
+  #usando-milhas{
+    background-image: url('./assests/images/conceito-abstrato-de-viagem-global_335657-3080\ 1.jpg');
+    display: cover;
+    height: 600px;
+    text-align: center;
+    background-position: 40vw bottom;
+    background-repeat: no-repeat
+    
+  }
+  #usando-milhas main {
+    max-width: 560px;
+    flex: 1;
+    display: flex;
+    color: #FF5A00;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #usando-milhas main h1 {
+    font-size: 40px;
+  }
+  #usando-milhas main p {
+    font-size: 28px;
+    color: #FF5A00;
+    line-height: 38px;
+    margin-top: 24px;
+  }
+  #usando-milhas  button{
+    background: #FF5A00;
+    border-radius: 5px;
+    width: 275px;
+    height: 80px;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+/* acumular milhas  */
+#acumular-milhas{
+    background-image: url('./assests/images/lojk.jpg');
+    display: cover;
+    height: 600px;
+    text-align: center;
+    background-position: 40vw bottom;
+    background-repeat: no-repeat
+}
+
+#acumular-milhas main{
+    max-width: 560px;
+    flex: 1;
+    display: flex;
+    color: #FF5A00;
+    flex-direction: column;
+    justify-content: center; 
+}
+
+#acumular-milhas main h1 {
+    font-size: 40px;
+
+  }
+  #acumular-milhas main p {
+    font-size: 28px;
+    line-height: 38px;
+    margin-top: 24px;
+    color: #FF5A00;
+  }  
+
+
+
+/* Ter Cartão */
+#cartão {
+    background-image: url('./assests/images/cartao-de-credito-com-moedas-de-dolar-e-usuarios-comercio-eletronico-e-compras-online-operacoes-financeiras-e-cartao-plastico-pagamento-movel-e-conceito-bancario-ilustracao-isolada-em-vetor_335657-2224\ 1.jpg');
+    display: cover;
+    height: 600px;
+    text-align: center;
+    background-position: 40vw bottom;
+    background-repeat: no-repeat
+}
+
+#cartão main{
+    max-width: 560px;
+    flex: 1;
+    display: flex;
+    color: #FF5A00;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#cartão main h1{
+    font-size: 40px;
+}
+
+/* boletos */
+#boletos{
+    background-image: url('./assests/images/tecnologia-de-banco-online-e-carteira-e-pagamento-aplicativo-de-internet-money-internet-retira-aplicativo-de-smartphone-monetizacao-ilustracao-de-conceito-de-elemento-de-design-de-comercio-eletronico_335657-1758\ 1.jpg');
+    display: cover;
+    height: 600px;
+    text-align: center;
+    background-position: 40vw bottom;
+    background-repeat: no-repeat
+
+}
+#boletos main{
+    max-width: 560px;
+    flex: 1;
+    display: flex;
+    color: #FF5A00;
+    flex-direction: column;
+    justify-content: center;
+}
+#boletos main h1{
+    font-size: 40px;
+ 
+  
+}
+
+/* lojas parceiras*/
+#lojas-parceiras{
+    background-image: url('./assests/images/titular-do-cartao-com-smartphone-fazendo-compras-online-e-recebendo-recompensas-e-lista-de-verificacao-servico-de-reembolso-recompensas-em-dinheiro-ilustracao-do-conceito-de-reembolso_335657-2322\ 1.jpg');
+    display: cover;
+    height: 600px;
+    text-align: center;
+    background-position: 40vw bottom;
+    background-repeat: no-repeat
+}
+
+#lojas-parceiras main{
+    max-width: 560px;
+    flex: 1;
+    display: flex;
+    color: #FF5A00;
+    flex-direction: column;
+    justify-content: center;
+}
+#lojas-parceiras main h1{
+    font-size: 40px;
+}
+
+/* Bonificção */
+
+#bonificação{
+    background-image: url('./assests/images/bonificação.jpg');
+    display: cover;
+    height: 600px;
+    text-align: center;
+    background-position: 40vw bottom;
+    background-repeat: no-repeat
+}
+
+#bonificação main{
+    max-width: 560px;
+    flex: 1;
+    display: flex;
+    color: #FF5A00;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#bonificação main h1{
+    font-size: 40px;
+}
+
+/* check-in */
+#check-in{
+  background-image: url('./assests/images/check-in.jpg');
+  display: cover;
+  height: 600px;
+  text-align: center;
+  background-position: 40vw bottom;
+  background-repeat: no-repeat
+}
+#check-in main{
+    max-width: 560px;
+    flex: 1;
+    display: flex;
+    color: #FF5A00;
+    flex-direction: column;
+    justify-content: center;
+}
+#check-in main h1{
+    font-size: 40px;
+}
+
+ /* FOOTER */
+ /* FOOTER */
+ footer{
+    width: 100%;
+    height: 90px;
+    color: white;
+    background: #333333;
+    display: flex; 
+    justify-content: space-between;
+}
+#endereco{
+    padding: 20px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    margin-left: -30%;
+}
+#sociais{
+    padding: 20px;
+    margin-right: 100px;
+}
+.img-footer{
+    padding: 5px;
+}
+}
+
+
